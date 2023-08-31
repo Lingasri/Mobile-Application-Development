@@ -34,6 +34,7 @@ Registeration Number :212221040089
 */
 ```
 activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -56,9 +57,9 @@ activity_main.xml:
         app:layout_constraintVertical_bias="0.499" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 mainActivity.java:
-
+```
 package com.example.hello_world_activity;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
     }
 }
-
+```
 
 
 ## OUTPUT
